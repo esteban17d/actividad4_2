@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Libros</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Biblioteca</h1>
+    </header>
+
+    <main>
+        <form class="book-form" id="book-form">
+            <input type="text" class="title-input" id="title-input" placeholder="Título del Libro" required>
+            <input type="text" class="author-input" id="author-input" placeholder="Autor del Libro" required>
+            <button class="add-button" id="add-button" type="submit"><i class="fa-solid fa-plus"></i></button>
+        </form>
+
+        <div class="grid-container" id="grid-container">
+        </div>
+    </main>
+    <footer>
+        <p>Derechos reservados a Esteban Elí Gómez González</p>
+    </footer>
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>
